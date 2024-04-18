@@ -1,0 +1,116 @@
+[41356][      debug] Loading models took 23.14ms
+[41358][      debug] Sqlite write daemon: starting up
+[41358][      debug] Sqlite write daemon: set up complete, waiting for connections
+[41356][environment] CWD = /home/tanmay/VnV_COMP0103/COMP0103
+[41356][environment] No .inferconfig file found
+[41356][environment] Project root = /home/tanmay/VnV_COMP0103/COMP0103
+[41356][environment] INFER_ARGS =   @/tmp/args.tmp.882f5a
+[41356][environment] command line arguments:   infer run -- javac
+[41356][environment]                           src/main/java/com/comp0103/verification/PrimeFactors.java
+[41356][environment] Available memory at startup: 1709 MB
+[41356][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[41356][environment] Scheduler: file
+[41356][environment] Cores used: 4
+[41356][environment] Infer version v1.0.0
+[41356][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[41356][environment] 
+[41356][   progress] Capturing in javac mode...
+[41356][      debug] Current working directory: '/home/tanmay/VnV_COMP0103/COMP0103'
+[41356][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/tanmay/VnV_COMP0103/COMP0103/infer-out/tmp/javac_args.tmp.623032' 2>'/home/tanmay/VnV_COMP0103/COMP0103/infer-out/tmp/javac.tmp.12208e.out'
+[41356][      debug] *** Success. Logs:
+[41356][      debug] Translating 1 source files (1 classes)
+[41356][      debug] done capturing all files
+[41356][      debug] GC stats for capture:
+[41356][      debug]   minor_words: 1.13017e+07
+[41356][      debug]   promoted_words: 2.38755e+06
+[41356][      debug]   major_words: 3.50449e+06
+[41356][      debug]   minor_collections: 48
+[41356][      debug]   major_collections: 4
+[41356][      debug]   compactions: 0
+[41356][      debug]   top_heap_words: 3082752
+[41356][      debug]   
+[41356][environment] Parallel jobs: 4
+[41356][   progress] Found 1 source file to analyze in /home/tanmay/VnV_COMP0103/COMP0103/infer-out
+[41380][   progress] src/main/java/com/comp0103/verification/PrimeFactors.java starting
+[41380][   progress] src/main/java/com/comp0103/verification/PrimeFactors.java DONE
+[41356][      debug] Backend stats:
+[41356][      debug]   summary_file_try_load= 98
+[41356][      debug]   summary_read_from_disk= 0
+[41356][      debug]   summary_cache_hits= 40 (28%)
+[41356][      debug]   summary_cache_misses= 98
+[41356][      debug]   ondemand_procs_analyzed= 2
+[41356][      debug]   ondemand_local_cache_hits= 46 (76%)
+[41356][      debug]   ondemand_local_cache_misses= 14
+[41356][      debug]   proc_locker_lock_time_user= 0.00000000
+[41356][      debug]   proc_locker_lock_time_sys= 0.00000000
+[41356][      debug]   proc_locker_lock_time_wall= 0.00000000
+[41356][      debug]   proc_locker_unlock_time_user= 0.00000000
+[41356][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[41356][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[41356][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[41356][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[41356][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[41356][      debug]   restart_scheduler_total_time_user= 0.00000000
+[41356][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[41356][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[41356][      debug]   
+[41356][      debug] GC stats for backend_stats.gc_stats_add.:
+[41356][      debug]   minor_words: 1.66136e+07
+[41356][      debug]   promoted_words: 216681
+[41356][      debug]   major_words: 222830
+[41356][      debug]   minor_collections: 17
+[41356][      debug]   major_collections: 3
+[41356][      debug]   compactions: 0
+[41356][      debug]   top_heap_words: 12331008
+[41356][      debug]   
+[41356][      debug] GC stats for backend_stats.gc_stats_max.:
+[41356][      debug]   minor_words: 1.66134e+07
+[41356][      debug]   promoted_words: 216681
+[41356][      debug]   major_words: 222830
+[41356][      debug]   minor_collections: 17
+[41356][      debug]   major_collections: 3
+[41356][      debug]   compactions: 0
+[41356][      debug]   top_heap_words: 3082752
+[41356][      debug]   
+[41356][      debug] Average over 4 processes
+[41356][      debug] GC stats for backend_stats.gc_stats_average.:
+[41356][      debug]   minor_words: 4.15341e+06
+[41356][      debug]   promoted_words: 54170.2
+[41356][      debug]   major_words: 55707.5
+[41356][      debug]   minor_collections: 4
+[41356][      debug]   major_collections: 0
+[41356][      debug]   compactions: 0
+[41356][      debug]   top_heap_words: 3082752
+[41356][      debug]   
+[41356][      debug] Analysis phase finished in 131ms
+[41356][      debug] backend_stats.scheduler_process_analysis_time_user= 0.01756700
+[41356][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01645800
+[41356][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.13087137
+[41356][      debug] GC stats for analysis_scheduler:
+[41356][      debug]   minor_words: 137334
+[41356][      debug]   promoted_words: 147454
+[41356][      debug]   major_words: 156160
+[41356][      debug]   minor_collections: 2
+[41356][      debug]   major_collections: 3
+[41356][      debug]   compactions: 1
+[41356][      debug]   top_heap_words: 3082752
+[41356][      debug]   
+[41356][      debug] GC stats for report:
+[41356][      debug]   minor_words: 2193
+[41356][      debug]   promoted_words: 0
+[41356][      debug]   major_words: 0
+[41356][      debug]   minor_collections: 0
+[41356][      debug]   major_collections: 0
+[41356][      debug]   compactions: 0
+[41356][      debug]   top_heap_words: 3082752
+[41356][      debug]   
+[41356][      debug] GC stats for main_process_full:
+[41356][      debug]   minor_words: 1.29785e+07
+[41356][      debug]   promoted_words: 2.70255e+06
+[41356][      debug]   major_words: 4.3364e+06
+[41356][      debug]   minor_collections: 54
+[41356][      debug]   major_collections: 9
+[41356][      debug]   compactions: 2
+[41356][      debug]   top_heap_words: 3082752
+[41356][      debug]   
+[41358][      debug] Sqlite write daemon: terminating
