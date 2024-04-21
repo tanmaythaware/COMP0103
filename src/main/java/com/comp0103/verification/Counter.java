@@ -12,7 +12,7 @@ package com.comp0103.verification;
 //    public Counter inc
 
 
-//C1R1 for prompt "complete the java code."
+//C1R1 for prompt "complete the java code." followed by C1
 //public class Counter {
 //    private int count;
 //
