@@ -1,5 +1,7 @@
 package com.comp0103.verification;
 
+//Test: FibonacciTest.java
+
 // Partial and Syntactically Correct
 
 //C3
@@ -8,7 +10,7 @@ package com.comp0103.verification;
 //    static long[] generate(int n) {
 //        long[]
 
-//C3R1 for prompt: "complete the java code" followed by C3.
+//C3R1 for prompt: "complete the java code" followed by C3. (Passed Infer analysis but not property-based tests)
 //public class Task {
 //
 //    static long[] generate(int n) {
@@ -31,7 +33,7 @@ package com.comp0103.verification;
 
 //No code in response for the prompt “Property Based Tests showed the following error. Rewrite the java code”. This was followed by the error stack.
 
-//C3R2 for prompt "Give me the complete code. without the property based test"
+//C3R2 for prompt "Give me the complete code. without the property based test" (Passed Infer analysis and property-based tests)
 //public class Task {
 //
 //    // Method to generate Fibonacci sequence up to n terms
@@ -70,7 +72,7 @@ package com.comp0103.verification;
 //        long[]
 
 
-//C6R1 for prompt "Complete Java Code" followed by C6
+//C6R1 for prompt "Complete Java Code" followed by C6 (Passed Infer analysis but not property-based tests)
 
 //public class Task {
 //
@@ -98,7 +100,7 @@ package com.comp0103.verification;
 //    }
 //}
 
-//C6R2 for prompt “Property Based Test showed the following error. Rewrite the code.” Followed by the error stack
+//C6R2 for prompt “Property Based Test showed the following error. Rewrite the code.” Followed by the error stack (Passed Infer analysis but not property-based tests)
 //public class Task {
 //
 //    // Function to calculate the Fibonacci number for a given index n
@@ -111,7 +113,7 @@ package com.comp0103.verification;
 //    }
 //}
 
-//C6R3 for prompt "Property based test showed the following error" followed by the error stack
+//C6R3 for prompt "Property based test showed the following error" followed by the error stack (Passed Infer analysis but not property-based tests)
 //public class Task {
 //    // Method to generate the first 'n' Fibonacci numbers
 //    private static long[] generate(int n) {
@@ -129,7 +131,7 @@ package com.comp0103.verification;
 //    }
 //}
 
-//C6R4 for prompt "Property Based test gave the following error.  generate() should be public." followed by the error stack
+//C6R4 for prompt "Property Based test gave the following error.  generate() should be public." followed by the error stack (Passed Infer analysis and property-based tests)
 public class Task {
     public static long[] generate(int n) {
         long[] fib = new long[n];

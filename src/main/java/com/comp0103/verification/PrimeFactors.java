@@ -4,6 +4,8 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
+//Test: PrimeFactorsPropertiesTest.java
+
 // Partial and Syntactically Correct
 
 //C2
@@ -13,7 +15,7 @@ import java.util.List;
 //
 //        for (BigInteger candi
 
-//C2R1 for prompt "complete the java code." followed by C2
+//C2R1 for prompt "complete the java code." followed by C2 (Passed Infer analysis and property-based tests)
 //final class PrimeFactors {
 //    static List<BigInteger> of(BigInteger n) {
 //        List<BigInteger> primes = new ArrayList<>();
@@ -41,7 +43,7 @@ import java.util.List;
 //        for (BigInteger candi
 
 
-//C5R1 for prompt "Complete java code"
+//C5R1 for prompt "Complete java code" (Failed Infer analysis)
 
 //public final class PrimeFactors {
 //    public static List<BigInteger> of(BigInteger n) {
@@ -79,7 +81,7 @@ import java.util.List;
 //    }
 //}
 
-//C5R2 for prompt "infer analysis shows the following error" followed by the error stack
+//C5R2 for prompt "infer analysis shows the following error" followed by the error stack (Passed Infer analysis and property-based tests)
 
 public final class PrimeFactors {
     public static List<BigInteger> of(BigInteger n) {

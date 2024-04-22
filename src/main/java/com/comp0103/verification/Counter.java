@@ -1,5 +1,7 @@
 package com.comp0103.verification;
 
+//Test: CounterPropertiesTest.java
+
 // Partial and Syntactically Correct
 
 //C1
@@ -12,7 +14,7 @@ package com.comp0103.verification;
 //    public Counter inc
 
 
-//C1R1 for prompt "complete the java code." followed by C1
+//C1R1 for prompt "complete the java code." followed by C1 (Passed Infer analysis but not property-based tests)
 //public class Counter {
 //    private int count;
 //
@@ -37,7 +39,7 @@ package com.comp0103.verification;
 //    }
 //}
 
-//C1R2 for prompt "Property Based tests showed the following error. Rewrite the java code." followed by error message.
+//C1R2 for prompt "Property Based tests showed the following error. Rewrite the java code." followed by error message. (Passed Infer analysis but not property-based tests)
 
 //public class Counter {
 //    private int count;
@@ -59,7 +61,7 @@ package com.comp0103.verification;
 //    }
 //}
 
-//C1R3 for prompt: "Property Based tests showed the following error." followed by the error stack and then some additional info on the code: "increment and decrement should return Counter."
+//C1R3 for prompt: "Property Based tests showed the following error." followed by the error stack and then some additional info on the code: "increment and decrement should return Counter." (Passed Infer analysis and property-based tests)
 
 //public class Counter {
 //    private int count;
@@ -98,7 +100,7 @@ package com.comp0103.verification;
 //    public Counter inc
 
 
-//C4R1 for prompt "Complete the java code" followed by C4
+//C4R1 for prompt "Complete the java code" followed by C4 (Passed Infer analysis but not property-based tests)
 //public class Counter {
 //    private int count;
 //
@@ -123,7 +125,7 @@ package com.comp0103.verification;
 //    }
 //}
 
-//C4R2 for prompt "Property Based tests showed the following error. Rewrite the java code." followed by the property based test error stack.
+//C4R2 for prompt "Property Based tests showed the following error. Rewrite the java code." followed by the property based test error stack. (Passed Infer analysis but not property-based tests)
 //public class Counter {
 //    private int count;
 //
@@ -148,7 +150,7 @@ package com.comp0103.verification;
 //    }
 //}
 
-//C4R3 for the prompt: "Property Based tests showed the following error." followed by the error stack and then some additional info on the code: "increment and decrement should return Counter."
+//C4R3 for the prompt: "Property Based tests showed the following error." followed by the error stack and then some additional info on the code: "increment and decrement should return Counter." (Passed Infer analysis but not property-based tests)
 
 //public class Counter {
 //    private int count;
@@ -176,7 +178,7 @@ package com.comp0103.verification;
 //    }
 //}
 
-//C4R4 for prompt "Property based test gave the following error" followed by the error stack.  Additional information "Refactor getCount() to count()"
+//C4R4 for prompt "Property based test gave the following error" followed by the error stack.  Additional information "Refactor getCount() to count()" (Passed Infer analysis and property-based tests)
 
 public class Counter {
     private int count;
